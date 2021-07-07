@@ -8,9 +8,9 @@ sbc(graph, undirected = TRUE)
 ```
 ### Arguments
 
-graph: The graph to analyze.
+**graph**:- The graph to analyze.
 
-undirected:  Logical, by defult it was set to undirected graph.
+**undirected**:-  Logical, by defult it was set to undirected graph.
 
 For directed graph, an argument "undirected = FALSE" must be specified.
 ```
@@ -31,8 +31,8 @@ Give the example
 
 ## Authors
 
-* **Chanin Songchon** - [Github](https://github.com/chaninso)
-* **Gordon Aitken** - [Github](https://github.com/ga41)
+* [**Chanin Songchon**](https://github.com/chaninso)
+* [**Gordon Aitken**](https://github.com/ga41)
 
 ## References
 
