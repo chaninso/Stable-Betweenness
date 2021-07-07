@@ -7,9 +7,9 @@ https://igraph.org/r/doc/betweenness.html
 Compute the stable betweenness centrality for nodes.
 
 ## Usage
-
+```
 sbc(graph, undirected = TRUE)
-
+```
 ### Prerequisites
 
 What things you need to install the software and how to install them
