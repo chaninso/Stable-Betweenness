@@ -1,6 +1,6 @@
 # Stable Betweenness
 
-Compute the stable betweenness centrality for nodes.
+A script in R to compute the stable betweenness centrality for nodes.
 
 ## Usage
 ```
@@ -21,7 +21,7 @@ sbc(graph, undirected = FALSE)
 
 The "sbc" function return a data frame of the stable betweenness score for each node.
 
-| name | value |
+| node name | value |
 | --- | --- |
 | node 1 | sbc value 1 |
 | node 2 | sbc value 2 |
