@@ -8,12 +8,13 @@ sbc(graph, undirected = TRUE)
 ```
 ### Arguments
 
-graph   The graph to analyze.
-undirected  Logical, by defult it was set to undirected graph. For directed graph, undirected = FALSE must be specified.
+graph: The graph to analyze.
+undirected:  Logical, by defult it was set to undirected graph. 
+For directed graph, "undirected = FALSE" must be specified.
+```
+sbc(graph, undirected = FALSE)
+```
 
-```
-Give examples
-```
 
 ### Installing
 
