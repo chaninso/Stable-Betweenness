@@ -2,18 +2,6 @@
 #Author: Gordon Aitken, Chanin Songchon
 #Date Created: 28/06/21
 
-rm(list = ls()); cat("\014"); gc() # Clear workspace
-pacman::p_load(igraph, openxlsx)
-setwd(dirname(rstudioapi::getActiveDocumentContext()$`path`))
-
-#Load data and convert to a graph object in igraph
-df <- read.xlsx("USAH_ADJ.xlsx", sheet = 1)
-df <- df[,-1]
-df[is.na(df)] <- 0
-rownames(df ) <- colnames(df)
-df <- as.matrix(df)
-g <- graph_from_adjacency_matrix(df, mode = "undirected", weighted = TRUE)
-
 # create sbc function
 sbc <- function(graph, undirected = TRUE){
   df <- as_adjacency_matrix(graph, type = c("both"),
