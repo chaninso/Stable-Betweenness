@@ -1,7 +1,3 @@
-
-https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md
-https://igraph.org/r/doc/betweenness.html
-
 # Stable Betweenness
 
 Compute the stable betweenness centrality for nodes.
@@ -10,9 +6,10 @@ Compute the stable betweenness centrality for nodes.
 ```
 sbc(graph, undirected = TRUE)
 ```
-### Prerequisites
+### Arguments
 
-igraph
+graph   The graph to analyze.
+undirected  Logical, by defult it was set to undirected graph. For directed graph, undirected = FALSE must be specified.
 
 ```
 Give examples
