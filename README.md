@@ -8,11 +8,11 @@ sbc(graph, undirected = TRUE)
 ```
 ### Arguments
 
-**graph**:- The graph to analyze.
+**graph**: The graph to analyze.
 
-**undirected**:-  Logical, by defult it was set to undirected graph.
+**undirected**:  Logical, by defult it was set to undirected graph.
 
-For directed graph, an argument "undirected = FALSE" must be specified.
+**For directed graph:** an argument **"undirected = FALSE"** must be specified.
 ```
 sbc(graph, undirected = FALSE)
 ```
@@ -22,7 +22,10 @@ sbc(graph, undirected = FALSE)
 The "sbc" function return a named list of the stable betweenness score for each node.
 
 ```
-Give the example
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
 ```
 
 ## Required package
@@ -36,7 +39,7 @@ Give the example
 
 ## References
 
-* S. Segarra and A. Ribeiro, "A stable betweenness centrality measure in networks," 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2014, pp. 3859-3863, doi: 10.1109/ICASSP.2014.6854324.
+* [S. Segarra and A. Ribeiro, "A stable betweenness centrality measure in networks," 2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2014, pp. 3859-3863, doi: 10.1109/ICASSP.2014.6854324.](https://ieeexplore.ieee.org/document/6854324)
 
 ## Acknowledgments
 
