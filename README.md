@@ -19,12 +19,15 @@ sbc(graph, undirected = FALSE)
 
 ### Return value
 
-The "sbc" function return a named list of the stable betweenness score for each node.
+The "sbc" function return a data frame of the stable betweenness score for each node.
 
-| Command | Description |
+| name | value |
 | --- | --- |
-| git status | List all new or modified files |
-| git diff | Show file differences that haven't been staged |
+| node 1 | sbc value 1 |
+| node 2 | sbc value 2 |
+| node 3 | sbc value 3 |
+| ... | ... |
+| node x | sbc value x |
 
 ## Required package
 
