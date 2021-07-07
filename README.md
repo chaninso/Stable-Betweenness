@@ -9,34 +9,26 @@ sbc(graph, undirected = TRUE)
 ### Arguments
 
 graph: The graph to analyze.
-undirected:  Logical, by defult it was set to undirected graph. 
-For directed graph, "undirected = FALSE" must be specified.
+
+undirected:  Logical, by defult it was set to undirected graph.
+
+For directed graph, an argument "undirected = FALSE" must be specified.
 ```
 sbc(graph, undirected = FALSE)
 ```
 
 
-### Installing
+### Return value
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+The "sbc" function return a named list of the stable betweenness score for each node.
 
 ```
 Give the example
 ```
 
-And repeat
+## Required package
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+* [igraph](https://igraph.org/r/) - Used to generate short path lengths
 
 ### Break down into end to end tests
 
