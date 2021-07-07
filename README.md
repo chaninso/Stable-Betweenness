@@ -21,16 +21,14 @@ sbc(graph, undirected = FALSE)
 
 The "sbc" function return a named list of the stable betweenness score for each node.
 
-```
 | Command | Description |
 | --- | --- |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
-```
 
 ## Required package
 
-* [igraph](https://igraph.org/r/) - Used to generate short path lengths
+* [igraph](https://igraph.org/r/) - Used to generate shortest path lengths
 
 ## Authors
 
