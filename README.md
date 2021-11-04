@@ -28,11 +28,11 @@ The "sbc" function return a data frame of the stable betweenness score for each 
 
 | node name | SBC value |
 | --- | --- |
-| node 1 | sbc value 1 |
-| node 2 | sbc value 2 |
-| node 3 | sbc value 3 |
+| node 1 | sbc node 1 |
+| node 2 | sbc node 2 |
+| node 3 | sbc node 3 |
 | ... | ... |
-| node x | sbc value x |
+| node x | sbc node x |
 
 ### Return value (For option: normalize = TRUE)
 
